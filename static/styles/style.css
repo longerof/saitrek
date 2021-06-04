@@ -8,7 +8,8 @@ margin: 0 0;
     text-decoration: none;
     color: rgb(61, 56, 49);
     padding: 25px 25px;
-    background: linear-gradient(90deg,#3fb3e0, #7c7cd4, #3fb3e0);
+    border-bottom: 2px ridge black ;
+    background: slategrey;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
@@ -24,5 +25,11 @@ margin: 0 0;
 
 .logo{
 height: 75px;
+
+}
+
+
+.input{
+margin-left: 500px;
 
 }
