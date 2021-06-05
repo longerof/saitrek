@@ -82,3 +82,11 @@ margin: 0 0;
     color: #1a1a1a;
 
 }
+
+.button{
+    grid-template-rows: min-content;
+    color: #0bc0c0;
+
+
+
+}
