@@ -83,10 +83,7 @@ margin: 0 0;
 
 }
 
-.button{
-    grid-template-rows: min-content;
-    color: #0bc0c0;
-
-
-
+.log{
+    margin-left: auto;
+    margin-top: auto;
 }
