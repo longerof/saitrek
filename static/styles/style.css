@@ -91,7 +91,7 @@ margin: 0 0;
 }
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
+.input-reg[type=text], .input-reg[type=password] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -100,7 +100,7 @@ input[type=text], input[type=password] {
   background: #f1f1f1;
 }
 
-.iput-reg[type=text]:focus, .iput-reg[type=password]:focus {
+.input-reg[type=text]:focus, .input-reg[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
