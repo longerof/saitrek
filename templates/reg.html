@@ -9,27 +9,24 @@
 </head>
 <body>
     <form action="action_page.php">
-        <div class="container">
-          <h1>Register</h1>
-          <p>Please fill in this form to create an account.</p>
+        <div class="container">]
+          <h1>Регистрация</h1>
+          <p>Пожалуйста, заполните эту форму, чтобы зарегестрировать аккаунт.</p>
+          <hr>     
+          <label for="email"><b>Почта</b></label>
+          <input type="text" placeholder="Введите почту" name="email" required class="input-reg">
+      
+          <label for="psw"><b>Пароль</b></label>
+          <input type="password" placeholder="Введите пароль" name="psw" required class="input-reg">
+      
+          <label for="psw-repeat"><b>Повторите пароль</b></label>
+          <input type="password" placeholder="Повторите пароль" name="psw-repeat" required class="input-reg">
           <hr>
-      
-          <label for="email"><b>Email</b></label>
-          <input type="text" placeholder="Почта" name="email" required class="input-reg">
-      
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Пароль" name="psw" required class="input-reg">
-      
-          <label for="psw-repeat"><b>Repeat Password</b></label>
-          <input type="password" placeholder="Повторить пароль" name="psw-repeat" required class="input-reg">
-          <hr>
-      
-          <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-          <button type="submit" class="registerbtn">Register</button>
+          <button type="submit" class="registerbtn">Зарегистрировать</button>
         </div>
       
         <div class="container signin">
-          <p>Already have an account? <a href="#">Sign in</a>.</p>
+          <p>Уже есть аккаунт? <a href="login.html">Войти</a>.</p>
         </div>
       </form>
 </body>

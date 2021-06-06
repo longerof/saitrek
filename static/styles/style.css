@@ -29,10 +29,10 @@ margin: 0 0;
 }
 
 
-.input{
+.input1{
     margin-left: 10px;
     height: 10;
-    box-shadow: 0px 5px 8px 0px #424242;
+    box-shadow: 0px 5px 8px 0px #7c7c7c;
 }
 
 .links{
@@ -83,9 +83,33 @@ margin: 0 0;
 
 }
 
-.window{
-  height: 200px;
-  color: gray;
+.log{
+    background-color: #8f8f8f;
+    padding-top: 10px;
+    padding-right: 250px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 60%;
+}
+
+.log2{
+    background-color: #8f8f8f;
+    padding-top: 10px;
+    padding-right: 250px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    margin-top: 11%;
+    margin-bottom: 69%;
+    margin-left: 40%;
+    margin-right: 60%;
+}
+
+#rectangle {
+  width: 300px;
+  height: 600px;
+  background: #afafaf;
 }
 
 * {box-sizing: border-box}
