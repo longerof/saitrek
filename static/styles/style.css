@@ -83,6 +83,11 @@ margin: 0 0;
 
 }
 
+.window{
+  height: 200px;
+  color: gray;
+}
+
 * {box-sizing: border-box}
 
 /* Add padding to containers */
