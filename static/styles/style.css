@@ -116,8 +116,8 @@ margin: 0 0;
   background-color: #3ebb42;
 }
 
-.button{
-  background-color: #3ebb42;
+.button:hover{
+  background-color: #42e448;
 }
 
 
