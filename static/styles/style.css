@@ -87,7 +87,7 @@ margin: 0 0;
   background-color: #c5c5c5;
   height: 35px;
   width: 300px;
-  margin: 0 auto;
+  margin: auto auto;
   
 }
 
@@ -95,14 +95,14 @@ margin: 0 0;
   background-color: #c5c5c5;
   height: 35px;
   width: 300px;
-  margin: 0 auto;
+  margin: auto auto;
 }
 
 #rectangle {
   width: 300px;
   height: 400px;
   background: #f1f1f1;
-  margin: 0 auto;
+  margin: auto auto;
 }
 
 .window{
