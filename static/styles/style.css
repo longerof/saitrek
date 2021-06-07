@@ -114,7 +114,7 @@ margin: 0 0;
 
 .button{
   background-color: #53e958;
-  color: #ddd;
+  color: rgb(255, 255, 255);
 }
 
 .button:hover{
