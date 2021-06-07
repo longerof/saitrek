@@ -113,7 +113,8 @@ margin: 0 0;
 }
 
 .button{
-  background-color: #53e958;
+  background-color: #4CAF50;
+  font-size: 7px;
   color: rgb(255, 255, 255);
 }
 
