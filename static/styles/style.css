@@ -114,6 +114,10 @@ margin: 0 0;
 
 .window{
   flex: content;
+  display: flex;
+  margin-left: 450px;
+  margin-right: 550px;
+  margin-top: 300px;
 }
 
 
