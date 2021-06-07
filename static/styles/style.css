@@ -99,16 +99,15 @@ margin: 0 0;
 #rectangle {
   width: 300px;
   height: 400px;
-  background: #afafaf;
+  background: #f1f1f1;
 
 }
 
 .window{
   flex: content;
   display: flex;
-  padding-left: 45%;
-  padding-right: 55%;
-  padding-top: 10%;
+  height: 600px;
+  width: 550px;
 }
 
 
