@@ -115,9 +115,9 @@ margin: 0 0;
 .window{
   flex: content;
   display: flex;
-  margin-left: 450px;
-  margin-right: 550px;
-  margin-top: 300px;
+  margin-left: 45%;
+  margin-right: 55%;
+  margin-top: 10%;
 }
 
 
