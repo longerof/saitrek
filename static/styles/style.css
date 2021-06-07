@@ -112,6 +112,10 @@ margin: 0 0;
   background: #afafaf;
 }
 
+.window{
+  flex: content;
+}
+
 
 * {box-sizing: border-box}
 
