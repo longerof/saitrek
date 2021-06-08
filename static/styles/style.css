@@ -83,7 +83,7 @@ margin: 0 0;
 
 }
 
-.log{
+.log[type="text"]{
   background-color: #e9e9e9;
   height: 35px;
   width: 300px;
@@ -91,7 +91,7 @@ margin: 0 0;
   vertical-align: middle;
 }
 
-.log2{
+.log2[type="password"]{
   background-color: #e9e9e9;
   height: 35px;
   width: 300px;
@@ -110,7 +110,6 @@ margin: 0 0;
 
 
 }
-
 
 
 .button{
