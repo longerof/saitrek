@@ -108,12 +108,7 @@ margin: 0 0;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.window{
-  flex: content;
-  display: flex;
-  height: 600px;
-  width: 550px;
-}
+
 
 .button{
   background-color: #4CAF50;
