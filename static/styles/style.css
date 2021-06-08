@@ -3,7 +3,6 @@ padding: 0 0;
 margin: 0 0;
 }
 
-
 .header{
     display: flex;
     align-items: center;
@@ -82,6 +81,7 @@ margin: 0 0;
     color: #1a1a1a;
 
 }
+
 .log{
   background-color: #e9e9e9;
   height: 35px;
@@ -110,7 +110,6 @@ margin: 0 0;
 
 }
 
-
 .button{
   background-color: #4CAF50;
   font-size: 15px;
@@ -122,15 +121,12 @@ margin: 0 0;
   background-color: #7fe982;
 }
 
-
 * {box-sizing: border-box}
 
-/* Add padding to containers */
 .container {
   padding: 16px;
 }
 
-/* Full-width input fields */
 .input-reg, .input-reg{
   width: 100%;
   padding: 15px;
@@ -145,13 +141,11 @@ margin: 0 0;
   outline: none;
 }
 
-/* Overwrite default styles of hr */
 hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
 
-/* Set a style for the submit/register button */
 .registerbtn {
   background-color: #4CAF50;
   color: white;
@@ -167,12 +161,10 @@ hr {
   opacity:1;
 }
 
-/* Add a blue text color to links */
 a {
   color: dodgerblue;
 }
 
-/* Set a grey background color and center the text of the "sign in" section */
 .signin {
   background-color: #f1f1f1;
   text-align: center;
