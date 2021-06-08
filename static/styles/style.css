@@ -82,15 +82,16 @@ margin: 0 0;
     color: #1a1a1a;
 
 }
-.log[type=text]{
+.log{
   background-color: #e9e9e9;
   height: 35px;
   width: 300px;
   margin: 0 auto;
   vertical-align: middle;
+  text-align: center;
 }
 
-.log2[type=password]{
+.log2{
   background-color: #e9e9e9;
   height: 35px;
   width: 300px;
@@ -131,7 +132,7 @@ margin: 0 0;
 }
 
 /* Full-width input fields */
-.input-reg[type=text], .input-reg[type=password] {
+.input-reg, .input-reg{
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -140,7 +141,7 @@ margin: 0 0;
   background: #f1f1f1;
 }
 
-.input-reg[type=text]:focus, .input-reg[type=password]:focus {
+.input-reg:focus, .input-reg:focus {
   background-color: #ddd;
   outline: none;
 }
