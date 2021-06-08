@@ -82,8 +82,7 @@ margin: 0 0;
     color: #1a1a1a;
 
 }
-
-.log[type="text"]{
+.log[type=text]{
   background-color: #e9e9e9;
   height: 35px;
   width: 300px;
@@ -91,7 +90,7 @@ margin: 0 0;
   vertical-align: middle;
 }
 
-.log2[type="password"]{
+.log2[type=password]{
   background-color: #e9e9e9;
   height: 35px;
   width: 300px;
