@@ -116,6 +116,7 @@ margin: 0 0;
   color: #ffffff;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   height: 35px;
+  vertical-align: auto;
 }
 
 .button:hover{
