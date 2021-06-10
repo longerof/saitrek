@@ -109,6 +109,10 @@ margin: 0 0;
   width: 25%;
   vertical-align: middle;
   box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 40%;
+  border: 1px solid #3a3a3a;
 }
 
 .log2{
