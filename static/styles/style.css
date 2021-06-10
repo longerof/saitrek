@@ -129,11 +129,13 @@ margin: 0 0;
 
 .button{
   background-color: #4CAF50;
-  font-size: 15px;
+  font-size: 14pt;
+  width: 25%;
   color: #ffffff;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   height: 35px;
-  vertical-align: auto;
+  padding: 10px;
+  border: 1px solid #5a5a5a;
 }
 
 .button:hover{
