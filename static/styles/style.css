@@ -41,19 +41,14 @@ margin: 0 0;
     padding-left: 10px;
     margin-right: 20px;
     font-size: 20px;
-
 }
 
 .links2{
     margin-right: auto;
     text-decoration: none;
     color: #444444;
-    margin-left: 20px;
+    margin-left: 50px;
     font-size: 20px;
-}
-
-.links:hover, .links2:hover{
-    color: #1a1a1a;
 }
 
 .links3{
@@ -76,7 +71,7 @@ margin: 0 0;
     font-size: small;
 }
 
-.links3:hover, .links4:hover{
+.links:hover, .links2:hover, .links3:hover, .links4:hover{
     color: #1a1a1a;
 
 }
@@ -146,8 +141,8 @@ margin: 0 0;
   padding: 16px;
 }
 
+.input-reg, .input-reg, .input-reg, .input-reg{
 
-.input-reg[type=email], .input-reg[type=password], .input-reg[type=name], .input-reg[type=family] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -156,7 +151,7 @@ margin: 0 0;
   background: #f1f1f1;
 }
 
-.input-reg[type=email]:focus, .input-reg[type=password]:focus, .input-reg[type=name]:focus, .input-reg[type=family]:focus {
+.input-reg:focus, .input-reg:focus, .input-reg:focus, .input-reg:focus{
   background-color: #ddd;
   outline: none;
 }
@@ -189,3 +184,53 @@ a {
   background-color: #f1f1f1;
   text-align: center;
 }
+
+.dropbutton {
+  background-color: #dddddd;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #444444;
+  padding-left: 10px;
+  margin-right: 20px;
+  margin-left: -400px;
+}
+
+.dropbutton:focus{
+  outline: none;
+  background-color: #ddd;
+}
+
+.dropbutton:hover{
+  color: #1a1a1a;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: -400px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
