@@ -20,8 +20,6 @@ margin: 0 0;
     padding-left: 100px;
     padding-right: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #bebebe;
-
 }
 
 .logo{
@@ -84,7 +82,7 @@ margin: 0 0;
 }
 
 .bodylog{
-  background-color: #bebebe;
+ text-align: center;
 }
 
 #rectangle {
@@ -102,17 +100,19 @@ margin: 0 0;
 .log{
   background-color: #e9e9e9;
   height: 35px;
-  width: 300px;
+  width: 25%;
   margin: 0 auto;
   vertical-align: middle;
+  box-sizing: border-box;
 }
 
 .log2{
   background-color: #e9e9e9;
   height: 35px;
-  width: 300px;
+  width: 25%;
   margin: 0 auto;
   vertical-align: middle;
+  box-sizing: border-box;
 }
 
 .button{
