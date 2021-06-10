@@ -21,6 +21,7 @@ margin: 0 0;
     padding-left: 100px;
     padding-right: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 .logo{
@@ -28,9 +29,10 @@ margin: 0 0;
 }
 
 
-.input{
+.input1{
     margin-left: 10px;
     height: 10;
+    box-shadow: 0px 5px 8px 0px #7c7c7c;
 }
 
 .links{
@@ -79,4 +81,102 @@ margin: 0 0;
 .links3:hover, .links4:hover{
     color: #1a1a1a;
 
+}
+
+.log{
+  background-color: #e9e9e9;
+  height: 35px;
+  width: 300px;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.log2{
+  background-color: #e9e9e9;
+  height: 35px;
+  width: 300px;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+#rectangle {
+  width: 300px;
+  height: 400px;
+  background: #f1f1f1;
+  margin: 0 auto;
+  vertical-align: middle;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.window{
+  flex: content;
+  display: flex;
+  height: 600px;
+  width: 550px;
+}
+
+.button{
+  background-color: #4CAF50;
+  font-size: 15px;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button:hover{
+  background-color: #7fe982;
+}
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+.input-reg[type=email], .input-reg[type=password], .input-reg[type=name], .input-reg[type=family] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.input-reg[type=email]:focus, .input-reg[type=password]:focus, .input-reg[type=name]:focus, .input-reg[type=family]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
 }
