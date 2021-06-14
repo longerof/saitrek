@@ -131,7 +131,7 @@ margin: 0 0;
   color: #ffffff;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   width: 25%;
-  font-size: 14pt;
+  font-size: 10pt;
   height: 35px;
   padding: 10px;
   border: 1px solid #b4b4b4;
@@ -140,12 +140,13 @@ margin: 0 0;
 }
 
 .button:hover{
-  background-color: #7fe982;
+  background-color: #0ea713;
 }
 
 * {box-sizing: border-box}
 
 .container {
+  color: #3d3831;
   padding: 16px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -181,6 +182,16 @@ hr {
   opacity: 0.9;
 }
 
+.reg{
+  text-align: center;
+  background-color: #dddddd;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3d3831;
+ box-shadow: 0px 5px 8px 0px #424242; 
+  padding: 25px 25px;
+
+}
+
 .registerbtn:hover {
   opacity:1;
 }
@@ -197,15 +208,14 @@ a {
 
 .dropbutton {
   background-color: #dddddd;
-  font-size: 16px;
   border: none;
-  border-radius: 5px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   color: #444444;
   padding-left: 10px;
   margin-right: 20px;
   margin-left: -400px;
+  cursor: pointer;
 }
 
 .dropbutton:focus{
@@ -226,10 +236,9 @@ a {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
   margin-left: -400px;
+  color: #444444;
 }
 
 .dropdown-content a {
@@ -244,3 +253,14 @@ a {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.create{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #dddddd;
+  font-size: 35px;
+  box-shadow: 0px 5px 8px 0px #424242;
+  padding: 25px 25px;
+  color: #444444;
+}
