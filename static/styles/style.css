@@ -47,7 +47,7 @@ margin: 0 0;
     margin-right: auto;
     text-decoration: none;
     color: #444444;
-    margin-left: 50px;
+    margin-left: -400px;
     font-size: 20px;
 }
 
@@ -214,7 +214,7 @@ a {
   color: #444444;
   padding-left: 10px;
   margin-right: 20px;
-  margin-left: -400px;
+  margin-left: 50px;
   cursor: pointer;
 }
 
