@@ -6,15 +6,15 @@ from flask import render_template
 
 app = Flask(__name__)
 
-@app.route("/url.main")
+@app.route("/main")
 def project():
     return render_template("project.html")
 
-@app.route("/url.login")
+@app.route("/login")
 def log():
     return render_template("login.html")
 
-@app.route("/url.register")
+@app.route("/register")
 def reg():
     return render_template("reg.html")
 
