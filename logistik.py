@@ -18,8 +18,8 @@ def log():
 def reg():
     return render_template("reg.html")
 
-@app.route("/")
-def blog():
+@app.route("/addblog")
+def addblog():
     return render_template("create.html")
 
 app.run()
