@@ -46,11 +46,11 @@ margin: 0 0;
 }
 
 .links2{
-    margin-right: auto;
     text-decoration: none;
     color: #444444;
     margin-left: 50px;
     font-size: 20px;
+    margin-right: 10px;
 }
 
 .links3{
@@ -214,9 +214,8 @@ a {
   color: #444444;
   padding-left: 10px;
   margin-right: 20px;
-  margin-left: -400px;
   cursor: pointer;
-  margin-right: auto;
+  margin-left: 50px;
 }
 
 .dropbutton:focus{
