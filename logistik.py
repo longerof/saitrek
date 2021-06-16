@@ -10,4 +10,16 @@ app = Flask(__name__)
 def project():
     return render_template("project.html")
 
+@app.route("/")
+def log():
+    return render_template("login.html")
+
+@app.route("/")
+def reg():
+    return render_template("reg.html")
+
+@app.route("/")
+def blog():
+    return render_template("create.html")
+
 app.run()
