@@ -216,6 +216,7 @@ a {
   margin-right: 20px;
   margin-left: -400px;
   cursor: pointer;
+  margin-right: auto;
 }
 
 .dropbutton:focus{
