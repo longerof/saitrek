@@ -10,22 +10,28 @@
     </div>
 </head>
 <body>
-    <form enctype="multipart/form-data" method="post">
+    <form enctype="multipart/form-data" method="post" class="form-create">
         <input type="text" class="name" placeholder="Название">
-        <p>Загрузите фото блюда<input type="file" name="photo" multiple accept="image/*"></p>
+        <p class="photobtn">Загрузите фото блюда<input type="file" name="photo" multiple accept="image/*"></p>
         <textarea type="text" class="recipe" placeholder="Введите рецепт"></textarea>
         <textarea type="text" class="cook" placeholder="Введите способ приготовленния"></textarea>
-        <select class="vid">
-            <option>Жареное</option>
-            <option>Варёное</option>
-            <option>Тушёное</option>
-            <option>Запечёное</option>
-            <option>Салаты</option>
-            <option>Супы</option>
-            <option>Закатки</option>
-            <option>Варенья</option>
-          </select>
-        <button type="submit">Создать</button>
+        <div class="block-vid">
+            
+            <select class="vid">
+                <option>Жареное</option>
+                <option>Варёное</option>
+                <option>Тушёное</option>
+                <option>Запечёное</option>
+                <option>Салаты</option>
+                <option>Супы</option>
+                <option>Закатки</option>
+                <option>Варенья</option>
+              </select>
+              <button id="booba" type="submit">Создать</button>
+        </div>
+        
+
+        
     </form>
 </body>
 </html>
