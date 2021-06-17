@@ -34,4 +34,14 @@ def log():
 def log_fun():
     return ""
 
+@app.route('/cre')
+def cre():
+    return render_template("create.html")
+
+@app.route('/cre/fun')
+def cre_fun():
+    return ""
+
+@
+
 app.run()
