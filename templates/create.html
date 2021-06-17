@@ -11,10 +11,12 @@
 </head>
 <body>
 
-    <form action="/addblog" method="POST">
-        <input type="text" name="title">
-        <textarea name="content"></textarea>
-        <button type="submit">Загрузить рецепт</button>
+    <form enctype="multipart/form-data" method="post">
+        <input type="text" placeholder="Заголовок">
+        <p>Загрузите фото блюда<input type="file" name="photo" multiple accept="image/*"></p>
+        <input type="text" placeholder="Введите рецепт">
+        <input type="text" placeholder="Введите способ приготовленния">
+        <button type="submit">Создать</button>
     </form>
     
 </body>
