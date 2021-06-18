@@ -34,11 +34,11 @@ margin: 0 0;
 }
 
 .links2{
-    margin-right: auto;
     text-decoration: none;
     color: #444444;
     margin-left: 50px;
     font-size: 20px;
+    margin-right: 10px;
 }
 
 .links3{
@@ -202,10 +202,9 @@ a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   color: #444444;
-  padding-left: 10px;
   margin-right: 20px;
-  margin-left: -400px;
   cursor: pointer;
+  margin-left: 50px;
 }
 
 .dropbutton:focus{
@@ -229,6 +228,7 @@ a {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   margin-left: -400px;
   color: #444444;
+  margin-left: 55px;
 }
 
 .dropdown-content a {
@@ -253,4 +253,75 @@ a {
   box-shadow: 0px 5px 8px 0px #424242;
   padding: 25px 25px;
   color: #444444;
+}
+
+.name{
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-top: 5px;
+  grid-area: name;
+}
+
+.photobtn{
+  font-family: Arial, Helvetica, sans-serif;
+  size: 50px;
+  margin-left: 10px;
+}
+
+.recipe{
+  grid-area: recipe;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 10px;
+  height: 400px;
+  width: 250px;
+  resize: none;
+}
+
+.cook{
+  grid-area: cook;
+  resize: none;
+  width: 1500px;
+  height: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.block-vid{
+  grid-area: vid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.vid{
+background-color: #eeeeee;
+}
+
+#booba{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #4CAF50;
+  color: floralwhite;
+  box-sizing: border-box;
+  border: rgb(210, 219, 210);
+  height: 30px;
+}
+
+#booba:hover{
+  background-color: #388f22;
+}
+
+.form-create{
+  display: grid;
+  grid-template-areas: "name name name name" "photo photo photo photo" "recipe cook cook vid" "btn _ _ _" ;
 }
