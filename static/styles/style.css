@@ -10,7 +10,7 @@ margin: 0 0;
     color: #3d3831;
     padding: 25px 25px;
     box-shadow: 0px 5px 8px 0px #424242;
-    background: #dddddd;
+    background: #ffe5b4;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -20,6 +20,7 @@ margin: 0 0;
     padding-left: 100px;
     padding-right: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ffedcc;
 }
 
 .logo{
@@ -68,19 +69,21 @@ margin: 0 0;
 
 .bodylog{
   width: 100%;
+  height: 100%;
   display: block;
-  color: #353535;
+  color: #444444;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
   padding: 50px;
   margin-top: 200px;
+  background-color: #ffedcc;
 }
 
 #rectangle {
   width: 500px;
   height: 400px;
-  background: #f1f1f1;
+  background: #ffe5b4;
   margin: 0 auto;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 35px;
@@ -91,27 +94,27 @@ margin: 0 0;
 }
 
 .log{
-  background-color: #e9e9e9;
+  background-color: #ffdd9f;
   height: 35px;
   box-sizing: border-box;
   padding: 10px;
   margin-bottom: 70px;
   width: 25%;
   height: 35px;
-  border: 1px solid #5c5c5c;
+  border: 1px solid grey;
   margin-left: 30%;
   margin-right: 30%;
 }
 
 .log2{
-  background-color: #e9e9e9;
+  background-color: #ffdd9f;
   height: 35px;
   box-sizing: border-box;
   padding: 10px;
   margin-bottom: 70px;
   width: 25%;
   height: 35px;
-  border: 1px solid #5c5c5c;
+  border: 1px solid grey;
   margin-left: 30%;
   margin-right: 30%;
 }
@@ -148,7 +151,7 @@ margin: 0 0;
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
-  background: #f1f1f1;
+  background: #ffe5b5;
 }
 
 .input-reg:focus, .input-reg:focus, .input-reg:focus, .input-reg:focus{
@@ -174,9 +177,9 @@ hr {
 
 .reg{
   text-align: center;
-  background-color: #dddddd;
+  background-color: #ffe5b4;
   font-family: Arial, Helvetica, sans-serif;
-  color: #3d3831;
+  color: #444444;
  box-shadow: 0px 5px 8px 0px #424242; 
   padding: 25px 25px;
 
@@ -191,13 +194,13 @@ a {
 }
 
 .signin {
-  background-color: #f1f1f1;
+  background-color: #ffe5b5;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .dropbutton {
-  background-color: #dddddd;
+  background-color: #ffe5b4;
   border: none;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
@@ -248,7 +251,7 @@ a {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  background-color: #dddddd;
+  background-color: #ffe5b4;
   font-size: 35px;
   box-shadow: 0px 5px 8px 0px #424242;
   padding: 25px 25px;
@@ -268,8 +271,10 @@ a {
 
 .photobtn{
   font-family: Arial, Helvetica, sans-serif;
-  size: 50px;
+  font-size: 10px;
   margin-left: 10px;
+  height: 30px;
+  background-color: cornflowerblue;
 }
 
 .recipe{
@@ -278,21 +283,27 @@ a {
   margin-bottom: 10px;
   margin-right: 5px;
   margin-left: 10px;
-  height: 400px;
+  height: 550px;
   width: 250px;
   resize: none;
+  font-size: 30px;
 }
 
 .cook{
   grid-area: cook;
   resize: none;
   width: 1500px;
-  height: 400px;
+  height: 550px;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 5px;
   margin-right: 10px;
   margin-bottom: 10px;
   margin-top: 0px;
+  font-size: 30px;
+}
+
+.vid{
+  
 }
 
 .block-vid{
@@ -304,17 +315,23 @@ a {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.vid{
-background-color: #eeeeee;
-}
 
 #booba{
   font-family: Arial, Helvetica, sans-serif;
   background-color: #4CAF50;
   color: floralwhite;
   box-sizing: border-box;
-  border: rgb(210, 219, 210);
-  height: 30px;
+  border: #d2dbd2;
+  height: 50px;
+  margin-left: -94%;
+  margin-right: 5px;
+  flex-direction: row;
+  text-align: center;
+  width: 98%;
+  position: absolute;
+  vertical-align: middle;
+  margin-top: 30%;
+  font-size: 20px;
 }
 
 #booba:hover{
@@ -323,5 +340,5 @@ background-color: #eeeeee;
 
 .form-create{
   display: grid;
-  grid-template-areas: "name name name name" "photo photo photo photo" "recipe cook cook vid" "btn _ _ _" ;
+  grid-template-areas: "name name name name" "photo photo photo photo" "recipe cook cook vid" "btn _ _ _";
 }

@@ -1,28 +1,4 @@
 import sqlite3
-<<<<<<< HEAD
-import flask
-from flask import Flask
-from flask import render_template
-
-
-app = Flask(__name__)
-
-@app.route("/")
-def project():
-    return render_template("project.html")
-
-@app.route("/login")
-def log():
-    return render_template("login.html")
-
-@app.route("/register")
-def reg():
-    return render_template("reg.html")
-
-@app.route("/addblog")
-def addblog():
-    return render_template("create.html", methods=['POST'])
-=======
 from flask import Flask
 from flask import render_template
 from flask import request
@@ -43,9 +19,8 @@ def reg_fun():
     family = request.form["family"]
     email = request.form["email"]
     psw = request.form["psw"]
-    connect = sqlite3.connect("database.db")
+    connect = sqlite3.connect("dbusers.db")
     cursor = connect.cursor()
-
     cursor.execute("INSERT INTO users (family, email, psw) VALUES (?, ?, ?)", (family, email, psw))
     connect.commit()
     return redirect("/")
@@ -54,19 +29,21 @@ def reg_fun():
 def log():
     return render_template("login.html")
 
-@app.route('/log/fun')
+@app.route('/log/fun', methods=['POST'])
 def log_fun():
-    return ""
+    connect = sqlite3.connect("dbusers.db")
+    cursor = connect.cursor()
+    cursor.execute("SELECT * FROM users WHERE family = ? AND psw = ?", (family, psw))
+    users = cursor.fetchall()
+    return redirect("/")
 
 @app.route('/cre')
 def cre():
+
     return render_template("create.html")
 
 @app.route('/cre/fun')
 def cre_fun():
     return ""
-
-@
->>>>>>> 023607882e950ee320e067f595d0332806183265
 
 app.run()
